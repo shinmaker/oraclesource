@@ -19,4 +19,4 @@ select last_name, department_id from employees where employee_id = 176;
 --연봉이 12000이상되는 직원들의 LAST_NAME 및 연봉조회
 select last_name, salary from employees where salary >=12000;
 --연봉이 5000에서 12000의 범위 이외의 사람들의 LAST_NAME 및 연봉조회
-select last_name, salary from employees where salary <= 5000 or salary >= 12000;
+select last_name, salary from employees where salary <= 5000 or salary >= 12000;    
